@@ -309,15 +309,24 @@
 </section>
 
 <!-- Footer -->
-<footer class="text-center">
-  <p>&copy; 2025 PurpleSite. All rights reserved.</p>
-  <div class="social-icons">
-    <a href="#"><i class="fab fa-facebook-f"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
-    <a href="#"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+<nav id="navbar" class="container navbar navbar-expand-lg navbar-dark sticky-top mb-2 shadow">
+  <div class="container">
+    <a class="navbar-brand fs-6" href="#">MGM's College of Computer Science & IT, Nanded.</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navContent">
+      <ul class="navbar-nav ms-auto me-3">
+        <li class="nav-item"><a class="nav-link" href="#home"><i class="fas fa-home"></i> Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services"><i class="fas fa-cogs"></i> Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+      <button class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+      <button class="btn btn-light text-purple" data-bs-toggle="modal" data-bs-target="#signupModal">Signup</button>
+    </div>
   </div>
-</footer>
+</nav>
 
 <!-- Login Modal -->
 <div class="modal fade" id="loginModal" tabindex="-1">
